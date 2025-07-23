@@ -1,881 +1,584 @@
-2025-07-23 18:54:49,777 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 18:54:50,492 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 18:54:51,313 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 19:12:38,870 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 19:12:39,582 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 19:12:40,609 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:12:54,651 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:13:09,551 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:13:09,553 - ERROR: Failed to parse LLM response as JSON in query_analyzer: {
-    "content_type": "document",
-    "research_query": "AI ethics, AI morality, responsible AI development, AI fairness, AI transparency, AI accountability, AI bias, AI decision-making, AI governance, AI safety, AI trust, AI reliability, AI explainability, AI auditing, AI review, AI evaluation, AI assessment, AI regulation, AI standards, AI best practices"
-2025-07-23 20:13:09,959 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:14:58,735 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:15:05,154 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:15:12,379 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:17:24,284 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:17:29,993 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:17:30,602 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:17:30,606 - ERROR: Failed to parse LLM response as JSON in query_analyzer: {
-    "content_type": "document",
-    "research_query": "AI ethics, artificial intelligence ethics, responsible AI, AI governance, fairness and transparency in AI, AI bias, AI accountability, AI decision-making, AI ethics framework, AI ethics guidelines, AI ethics principles, AI ethics standards"
-2025-07-23 20:17:31,180 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:17:37,245 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:26:38,945 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:26:45,142 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2025-07-23 20:26:46,884 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:26:51,362 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:26:51,979 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:26:52,876 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2025-07-23 20:26:53,415 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:27:08,845 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:27:09,390 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2025-07-23 20:29:03,522 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:29:08,901 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2025-07-23 20:29:09,803 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:29:14,115 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2025-07-23 20:29:14,502 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:29:20,340 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2025-07-23 20:30:37,203 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:42,654 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:43,141 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:43,504 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:43,897 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:44,451 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:45,934 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:45,939 - ERROR: Error in content planning or parsing: {
-    "title": "Renewable Energy Trends and Technologies",
-    "sections": [
-        {
-            "title": "Introduction",
-            "key_points": [
-                "The energy sector is undergoing a significant transformation, driven by the need to reduce greenhouse gas emissions and transition to a low-carbon economy.",
-                "Renewable energy is playing a critical role in this transformation."
-            ]
-        },
-        {
-            "title": "Renewable Energy Trends",
-            "key_points": [
-                "Solar power: expected to be the largest source of new power generation capacity in 2025, with a growth rate of 15% per annum (Source: Deloitte Insights)",
-                "Wind power: expected to continue growing, with a focus on larger turbines and more efficient operations",
-                "Biofuels: expected to experience significant growth, driven by advancements in technology and government policies",
-                "Geothermal energy: expected to continue growing, with a focus on enhanced geothermal systems"
-            ]
-        },
-        {
-            "title": "Solar Power",
-            "key_points": [
-                "Solar power is expected to be the largest source of new power generation capacity in 2025, with a growth rate of 15% per annum (Source: Deloitte Insights)",
-                "Advances in technology have led to a significant reduction in the cost of solar energy",
-                "Solar power is becoming increasingly competitive with fossil fuels"
-            ]
-        },
-        {
-            "title": "Wind Power",
-            "key_points": [
-                "Wind power is expected to continue growing, with a focus on larger turbines and more efficient operations",
-                "Advances in technology have led to a significant increase in the efficiency of wind turbines",
-                "Wind power is becoming increasingly competitive with fossil fuels"
-            ]
-        },
-        {
-            "title": "Biofuels",
-            "key_points": [
-                "Biofuels are expected to experience significant growth, driven by advancements in technology and government policies",
-                "Advanced biofuels are expected to play a key role in the transition to a low-carbon economy",
-                "Biofuels can be used as a drop-in replacement for fossil fuels in existing infrastructure"
-            ]
-        },
-        {
-            "title": "Geothermal Energy",
-            "key_points": [
-                "Geothermal energy is expected to continue growing, with a focus on enhanced geothermal systems",
-                "Geothermal energy is a low-carbon source of energy, with the potential to reduce greenhouse gas emissions"
-                "Geothermal energy can be used for both power generation and heating"
-            ]
-        },
-        {
-            "title": "Hydrogen Fuel Cells",
-            "key_points": [
-                "Hydrogen fuel cells are expected to play a key role in the transition to a low-carbon economy",
-                "Hydrogen fuel cells have the potential to reduce greenhouse gas emissions by up to 70%",
-                "Hydrogen fuel cells can be used in a variety of applications, including transportation and power generation"
-            ]
-        },
-        {
-            "title": "Energy Storage",
-            "key_points": [
-                "Energy storage is critical for the widespread adoption of renewable energy",
-                "Advances in technology have led to a significant reduction in the cost of energy storage",
-                "Energy storage can be used to stabilize the grid and ensure a reliable supply of electricity"
-            ]
-        },
-        {
-            "title": "Smart Grids",
-            "key_points": [
-                "Smart grids are critical for the widespread adoption of renewable energy",
-                "Smart grids enable real-time monitoring and control of the grid",
-                "Smart grids can reduce energy losses and improve the overall efficiency of the grid"
-            ]
-        },
-        {
-            "title": "Conclusion",
-            "key_points": [
-                "The energy sector is undergoing a significant transformation, driven by the need to reduce greenhouse gas emissions and transition to a low-carbon economy",
-                "Renewable energy is playing a critical role in this transformation",
-                "The widespread adoption of renewable energy will require significant investments in infrastructure and technology"
-            ]
-        }
-    ]
-}
-2025-07-23 20:30:46,457 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:47,113 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:47,115 - ERROR: Failed to parse LLM response as JSON in content_generator for section 'Main Content': Here is the generated content for the Main Content section:
-
-{"text": "Renewable energy is a rapidly growing sector, with advancements in solar and wind power technologies driving innovation and reducing costs. According to Deloitte's Renewable Energy Industry Outlook, the sector is expected to continue its upward trajectory, with solar and wind power combined accounting for over 30% of global electricity generation by 2025. 
-
-Solar power technology has made significant strides, with efficiency rates increasing by over 20% in the past decade. As per Rated Power, the cost of solar energy has decreased by over 70% in the same period, making it a viable alternative to traditional fossil fuels. 
-
-Wind power, too, has seen significant advancements, with larger turbines and improved efficiency rates driving down costs. According to KPMG, the cost of wind power has decreased by over 50% in the past decade.
-
-As the world transitions to a low-carbon economy, renewable energy technologies will play a critical role. According to the World Economic Forum, 5 key energy trends will shape the industry in 2025: increased adoption of renewable energy, growth of energy storage, electrification of transportation, urbanization, and digitalization.
-2025-07-23 20:30:47,511 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:47,534 - ERROR: Failed to parse LLM response as JSON in visual_creator for section 'Introduction': {
-"chart_type": "Line Chart",
-"key_data_points": ["2010", "2020", "Projected 2030"],
-"potential_diagram_style": "Double-axis chart with a primary axis for the percentage of renewable energy and a secondary axis for the total energy production"
-}
-2025-07-23 20:30:48,018 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:48,020 - ERROR: Failed to parse LLM response as JSON in visual_creator for section 'Main Content': {
-  "type": "Bar Chart",
-  "keyDataPoints": [
-    {"label": "Solar Power", "value": "20%"},
-    {"label": "Wind Power", "value": "30%"},
-    {"label": "Other Sources", "value": "50%"}
-  ],
-  "diagramStyle": "Stacked Bar Chart with colors for each source"
-}
-2025-07-23 20:30:48,624 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:49,961 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:50,606 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:58,666 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:30:59,037 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:00,175 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:00,586 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:01,011 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:03,045 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:03,048 - ERROR: Error in content planning or parsing: {
-"Introduction": {
-"type": "heading",
-"text": "Renewable Energy Trends: A Pathway to Sustainable Development"
-},
-"I. Renewable Energy Trends": {
-"type": "subsection",
-"text": "A Summary of Our 2025 Solar Research",
-"points": [
-{
-"type": "bullet",
-"text": "Renewable energy capacity is expected to grow by 50% by 2025"
-},
-{
-"type": "bullet",
-"text": "Solar energy will account for 30% of global electricity generation by 2025"
-}
-]
-},
-"II. Solar Energy": {
-"type": "subsection",
-"text": "Advances in Technology and Cost Reduction",
-"points": [
-{
-"type": "bullet",
-"text": "Solar panel prices have decreased by 70% over the past decade"
-},
-{
-"type": "bullet",
-"text": "Solar energy can provide 20% of global electricity generation by 2050"
-}
-]
-},
-"III. Wind Energy": {
-"type": "subsection",
-"text": "Growing Global Capacity and Economic Benefits",
-"points": [
-{
-"type": "bullet",
-"text": "Wind energy capacity is expected to grow by 15% by 2025"
-},
-{
-"type": "bullet",
-"text": "Wind energy can provide 12% of global electricity generation by 2050"
-}
-]
-},
-"IV. Hydro Energy": {
-"type": "subsection",
-"text": "Hydroelectric Power: A Reliable and Durable Source",
-"points": [
-{
-"type": "bullet",
-"text": "Hydro energy is the largest source of renewable energy globally"
-},
-{
-"type": "bullet",
-"text": "Hydro energy can provide 16% of global electricity generation by 2050"
-}
-]
-},
-"V. Biofuels": {
-"type": "subsection",
-"text": "Sustainable Transportation and Industry Applications",
-"points": [
-{
-"type": "bullet",
-"text": "Biofuels can reduce greenhouse gas emissions by up to 80%"
-},
-{
-"type": "bullet",
-"text": "Biofuels can provide 10% of global transportation energy by 2050"
-}
-]
-},
-"VI. Geothermal Energy": {
-"type": "subsection",
-"text": "Untapped Potential and Growing Global Interest",
-"points": [
-{
-"type": "bullet",
-"text": "Geothermal energy can provide 3% of global electricity generation by 2050"
-},
-{
-"type": "bullet",
-"text": "Geothermal energy can reduce greenhouse gas emissions by up to 90%"
-}
-]
-},
-"VII. Energy Storage": {
-"type": "subsection",
-"text": "Advances in Technology and Market Adoption",
-"points": [
-{
-"type": "bullet",
-"text": "Energy storage capacity is expected to grow by 20% by 2025"
-},
-{
-"type": "bullet",
-"text": "Energy storage can reduce greenhouse gas emissions by up to 30%"
-}
-]
-},
-"VIII. Grid Integration": {
-"type": "subsection",
-"text": "Challenges and Opportunities for a Low-Carbon Future",
-"points": [
-{
-"type": "bullet",
-"text": "Grid integration is crucial for widespread adoption of renewable energy"
-},
-{
-"type": "bullet",
-"text": "Advanced grid management systems can reduce greenhouse gas emissions by up to 20%"
-}
-]
-},
-"IX. Sustainable Development and Climate Change Mitigation": {
-"type": "subsection",
-"text": "Renewable Energy and the United Nations Sustainable Development Goals",
-"points": [
-{
-"type": "bullet",
-"text": "Renewable energy can support 13 of the 17 United Nations Sustainable Development Goals"
-},
-{
-"type": "bullet",
-"text": "Climate change mitigation requires a global transition to renewable energy"
-}
-]
-},
-"Conclusion": {
-"type": "heading",
-"text": "A Pathway to a Low-Carbon Future: A Summary of Renewable Energy Trends"
-}
-2025-07-23 20:31:04,042 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:05,015 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:05,015 - ERROR: Failed to parse LLM response as JSON in content_generator for section 'Main Content': {
-"text": "Error Occurred During Planning: Insights from Renewable Energy Reports
-
-In 2025, the world's energy landscape is shifting towards a more sustainable future. However, recent reports suggest that the path to this future is not without its challenges. According to the Renewable Energy Outlook 2020 by Deloitte, the renewable energy industry is expected to experience a slowdown due to the COVID-19 pandemic. The report cites challenges such as supply chain disruptions, project delays, and reduced demand as key factors contributing to the decline.
-
-Another report, the Special Report on Global Warming of 1.5°C by the Intergovernmental Panel on Climate Change (IPCC), highlights the urgent need for a transition to renewable energy. The report emphasizes that the world must reduce its greenhouse gas emissions by 45% by 2030 to limit global warming to 1.5°C above pre-industrial levels.
-
-The World Economic Forum's Energy Trends 2025 report identifies five key trends that will shape the industry's future. These include the increasing adoption of renewable energy, the growth of energy storage, the rise of electric vehicles, the integration of smart grids, and the development of carbon capture and storage technology.
-
-In summary, while the renewable energy industry faces challenges, the need for a transition to sustainable energy sources remains urgent. Key insights from recent reports highlight the importance of addressing supply chain disruptions, reducing greenhouse gas emissions, and embracing innovative technologies to drive the industry forward."
-}
-2025-07-23 20:31:05,527 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:05,534 - ERROR: Failed to parse LLM response as JSON in visual_creator for section 'Introduction': {
-"chart_type": "line",
-"key_data_points": [
-{"label": "2010", "value": 100},
-{"label": "2015", "value": 120},
-{"label": "2020", "value": 150},
-{"label": "2025", "value": 180}
-],
-"potential_diagram_style": "simple and clean, with a focus on the trend line and subtle gradient effects"
-}
-2025-07-23 20:31:06,226 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:06,226 - ERROR: Failed to parse LLM response as JSON in visual_creator for section 'Main Content': {
-"type": "Bar Chart",
-"dataPoints": [
-    {"label": "2025 Renewable Energy Targets", "value": 30},
-    {"label": "Current Renewable Energy Generation", "value": 20},
-    {"label": "Projected Renewable Energy Generation", "value": 35}
-],
-"style": " clustered column chart"
-}
-2025-07-23 20:31:06,850 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:08,189 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:08,627 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:14,905 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:15,619 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:16,300 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:16,804 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:17,645 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:18,696 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:19,015 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:19,015 - INFO: Retrying request to /openai/v1/chat/completions in 6.000000 seconds
-2025-07-23 20:31:26,082 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:26,086 - ERROR: Failed to parse LLM response as JSON in content_generator for section 'sections': Here is the generated content for the sections:
-
-{
-  "Introduction": {
-    "text": "Importance of AI ethics in today's world"
-  },
-  "Ethical Considerations in AI Development": {
-    "text": "Key principles for ethical AI development (Transcend.io), Accountability in AI development, Transparency in AI development"
-  },
-  "AI Bias and Fairness": {
-    "text": "Definition of AI bias and fairness, Types of AI bias (source: [PDF] Addressing bias, fairness, and accountability in autonomous decision), Consequences of AI bias (source: [PDF] Addressing bias, fairness, and accountability in autonomous decision)"
-  },
-  "Data Privacy in AI": {
-    "text": "Importance of data privacy in AI, Data privacy considerations in AI development (source: [Fairness and Bias in Artificial Intelligence: A Brief Survey of Sources ...])"
-  },
-  "AI Decision-Making": {
-    "text": "AI decision-making process, AI decision-making biases (source: [Fairness and Bias in Artificial Intelligence: A Brief Survey of Sources ...])"
-  },
-  "AI Ethics Guidelines and Frameworks": {
-    "text": "Comparison of IEEE, EU, and OECD guidelines (source: AI Ethics 101: Comparing IEEE, EU and OECD Guidelines - Zendata), A framework for AI ethics (source: A framework for AI ethics)"
-  }
-}
-2025-07-23 20:31:26,155 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:26,156 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
-2025-07-23 20:31:26,180 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:26,182 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
-2025-07-23 20:31:29,926 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:29,926 - ERROR: Failed to parse LLM response as JSON in visual_creator for section 'sections': {
-  "Introduction": {
-    "visual_element": {
-      "type": "infographic",
-      "data_points": [
-        {
-          "title": "Impact of AI on society",
-          "value": "75%"
-        },
-        {
-          "title": "Number of potential AI applications",
-          "value": "1000+"
-        },
-        {
-          "title": "Percentage of AI development without ethics consideration",
-          "value": "30%"
-        }
-      ],
-      "style": "simple infographic with icons and short text"
-    }
-  },
-  "Ethical Considerations in AI Development": {
-    "visual_element": {
-      "type": "flowchart",
-      "data_points": [
-        {
-          "description": "Data collection and processing",
-          "branches": [
-            {
-              "description": "Data bias and inaccuracies",
-              "sub_branches": [
-                {
-                  "description": "Discrimination and unfair treatment"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Model development and training",
-          "branches": [
-            {
-              "description": "Unintended consequences",
-              "sub_branches": [
-                {
-                  "description": "Job displacement and economic impact"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "style": "minimalistic flowchart with short text and simple icons"
-    }
-  }
-}
-2025-07-23 20:31:29,926 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:29,926 - ERROR: Failed to parse LLM response as JSON in template_selector: {
-"template": {
-"layout": {
-"type": "grid",
-"columns": 2,
-"gutters": "lg",
-"breakpoints": {
-"lg": {
-"columns": 2,
-"gutters": "lg"
-},
-"md": {
-"columns": 1,
-"gutters": "md"
-},
-"sm": {
-"columns": 1,
-"gutters": "sm"
-},
-"xs": {
-"columns": 1,
-"gutters": "xs"
-}
-}
-},
-"colors": {
-"primary": "#4682B4",
-"secondary": "#F7F7F7",
-"accent": "#8B9467",
-"background": "#FFFFFF",
-"text": "#333333"
-},
-"typography": {
-"font-family": "Lato",
-"font-size": 16,
-"line-height": 1.5,
-"heading-font-size": 24,
-"heading-line-height": 1.2
-},
-"visual-hierarchy": {
-"heading": {
-"font-size": 24,
-"font-weight": "bold",
-"margin-bottom": 10
-},
-"subheading": {
-"font-size": 18,
-"font-weight": "semibold",
-"margin-bottom": 5
-},
-"paragraph": {
-"font-size": 16,
-"line-height": 1.5,
-"margin-bottom": 10
-},
-"list": {
-"font-size": 16,
-"line-height": 1.5,
-"margin-bottom": 10
-}
-}
-}
-2025-07-23 20:31:30,013 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:30,013 - INFO: Retrying request to /openai/v1/chat/completions in 7.000000 seconds
-2025-07-23 20:31:37,482 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:41,899 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:42,307 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:42,685 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:43,080 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:43,157 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:43,158 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:31:44,526 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:44,620 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:44,620 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:31:46,577 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:46,680 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:46,680 - INFO: Retrying request to /openai/v1/chat/completions in 4.000000 seconds
-2025-07-23 20:31:51,567 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:31:51,657 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:31:51,657 - INFO: Retrying request to /openai/v1/chat/completions in 8.000000 seconds
-2025-07-23 20:32:00,517 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:32:00,517 - ERROR: Failed to parse LLM response as JSON in content_generator for section 'sections': Here is the generated content for the sections:
-
-{
-"Introduction": {
-"text": "Space exploration is a significant area of scientific research and technological development, driven by humanity's innate curiosity and desire to understand the universe."
-},
-"Milestones and Achievements": {
-"text": "Some of the most notable milestones in space exploration include Yuri Gagarin's first human spaceflight in 1961, Neil Armstrong's moon landing in 1969, and NASA's Viking 1 robotic mission to Mars in 1975. These achievements have paved the way for ongoing missions and future plans."
-},
-"Ongoing Missions": {
-"text": "Currently, NASA's Mars 2020 mission, featuring the Perseverance rover, is exploring the Martian surface. The Planetary Society's LightSail 2 mission has successfully demonstrated solar sailing. These missions are expanding our understanding of the universe and pushing the boundaries of space exploration."
-},
-"Future Plans": {
-"text": "Looking ahead, NASA's Artemis program aims to return humans to the moon by 2024. Private companies like SpaceX and Blue Origin are working towards establishing a human settlement on Mars. These ambitious plans will continue to advance our knowledge and capabilities in space exploration."
-}
-2025-07-23 20:32:00,595 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:32:00,595 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
-2025-07-23 20:32:04,017 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:32:04,018 - ERROR: Failed to parse LLM response as JSON in visual_creator for section 'title': {
-"chart_type": " Timeline",
-"key_data_points_to_visualize": ["Major milestones in space exploration", "Notable space missions", "Key discoveries"],
-"potential_diagram_style": "Linear, with icons and brief descriptions"
-}
-2025-07-23 20:32:04,102 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:32:04,102 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:32:05,497 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:32:05,502 - ERROR: Failed to parse LLM response as JSON in visual_creator for section 'sections': {
-"Introduction": {
-"visual_element": {
-"type": "bar_chart",
-"data_points": ["Year", "Missions", "Budget"],
-"style": "horizontal"
-}
-}
-2025-07-23 20:32:06,136 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:32:06,138 - ERROR: Failed to parse LLM response as JSON in template_selector: {
-"template": {
-"layout": {
-"structure": [
-{
-"type": "header",
-"content": "Space Exploration"
-},
-{
-"type": "hero",
-"content": "Explore the vastness of space",
-"image": "https://example.com/space-explo.jpg"
-},
-{
-"type": "sections",
-"content": [
-{
-"type": "text",
-"content": "Mars Expedition",
-"text-align": "center"
-},
-{
-"type": "image",
-"content": "https://example.com/mars.jpg",
-"width": "300px"
-}
-],
-"padding": "20px"
-}
-],
-"footer": {
-"type": "text",
-"content": "Copyright 2023 Space Exploration"
-}
-},
-"colors": {
-"primary": "#3498db",
-"secondary": "#f1c40f",
-"accent": "#e74c3c"
-},
-"typography": {
-"font-family": "Open Sans",
-"font-size": "16px",
-"font-weight": "400"
-},
-"visual-hierarchy": {
-"header": {
-"font-size": "24px",
-"font-weight": "600"
-},
-"hero": {
-"padding": "20px",
-"background-color": "#3498db"
-},
-"sections": {
-"padding": "20px",
-"border-bottom": "1px solid #ccc"
-}
-}
-}
-2025-07-23 20:35:30,013 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:45,403 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:45,803 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:46,189 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:46,609 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:46,973 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:49,295 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:50,535 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:51,399 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:52,432 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:52,817 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:53,805 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:54,840 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:35:55,357 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:31,579 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:31,958 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:32,554 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:32,943 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:33,345 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:34,397 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:35,284 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:36,133 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:36,547 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:36,979 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:37,680 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:39,032 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:39,647 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:40,053 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:43,873 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:44,270 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:44,964 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:45,339 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:45,727 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:46,765 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:47,439 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:48,463 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:36:48,465 - ERROR: Failed to parse LLM response as JSON in content_generator for section 'sections': text='Space exploration has been a fascinating topic for centuries, with humans seeking to understand the mysteries of the universe and explore the vastness of space. From the early pioneers like Galileo Galilei to the modern-day missions to Mars, space exploration has come a long way. With the help of advanced technology and international collaborations, scientists and engineers are working together to push the boundaries of human knowledge and understanding. Some of the major milestones in space exploration include the launch of the first artificial satellite, Sputnik, in 1957, the first manned spaceflight by Yuri Gagarin in 1961, and the first moon landing by Neil Armstrong in 1969. Today, space agencies like NASA and the European Space Agency are working on various missions to explore the solar system and beyond.' sources=['https://www.sciencedaily.com/news/space_time/space_exploration/', 'https://www.nasa.gov/nasa-missions/', 'https://www.britannica.com/science/space-exploration/Major-milestones', 'https://en.wikipedia.org/wiki/Timeline_of_space_exploration', 'https://www.planetary.org/space-missions']
-2025-07-23 20:36:48,547 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:36:48,548 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:36:51,367 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:43:58,454 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:04,107 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:04,710 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:05,125 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:05,800 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:06,195 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:08,012 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:10,691 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:12,252 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:12,662 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:14,005 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:15,638 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:17,335 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:18,016 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:33,840 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:34,217 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:34,674 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:35,098 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:35,519 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:36,485 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:36,485 - ERROR: Error in content planning or parsing: {
-"Title": "Renewable Energy Trends 2022: Status, Forecast, and Future Directions",
-"I. Introduction": {
-"Key Points": ["Renewable energy is a crucial step towards a sustainable future", "This presentation will discuss the current state, future prospects, and innovations in the renewable energy sector"]
-},
-"II. Current Status": {
-"Key Points": ["Renewable energy accounted for 26% of global electricity generation in 2020 (RENEWABLE ENERGY IN ENERGY SUPPLY | Global Trends)", "Solar and wind power are the leading sources of renewable energy", "Cost reductions have made renewable energy more competitive with fossil fuels"]
-},
-"III. Trends Shaping the Sector": {
-"Key Points": ["1. Energy Storage: Advancements in battery technology and grid-scale storage (The top 5 renewable energy trends shaping the sector - RSM US)", "2. Corporate Renewable Energy Procurement: Companies driving demand for renewable energy", "3. Electric Vehicles: Rising adoption and impact on energy demand", "4. Smart Grids: Enabling greater integration of renewable energy", "5. Green Hydrogen: Emerging as a new renewable energy source"]
-},
-"IV. Market Analysis": {
-"Key Points": ["The global renewable energy market size is expected to reach $1.5 trillion by 2033 (Renewable Energy Market Size | Industry Report, 2033)", "Solar and wind energy are expected to dominate the market", "Emerging markets and economies are driving growth"]
-},
-"V. Emerging Technologies and Innovations": {
-"Key Points": ["Advancements in solar panel efficiency and cost reduction", "Innovations in wind turbine design and offshore wind farms", "Emerging technologies like floating wind turbines and green hydrogen production"]
-},
-"VI. Industry Outlook": {
-"Key Points": ["The renewable energy sector is expected to continue growing at a CAGR of 10%", "Job creation and economic benefits expected to increase", "Regulatory frameworks and policies will play a crucial role in shaping the industry's future"]
-},
-"VII. Conclusion": {
-"Key Points": ["Renewable energy is crucial for a sustainable future", "Innovations and trends are driving growth and adoption", "The industry is expected to continue growing and shaping the future"]
-}
-2025-07-23 20:44:37,619 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:38,302 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:38,890 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:39,306 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:40,164 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:41,423 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:43,773 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:49,711 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:50,178 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:50,551 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:50,964 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:51,449 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:52,611 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:44:52,690 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:44:52,690 - INFO: Retrying request to /openai/v1/chat/completions in 8.000000 seconds
-2025-07-23 20:45:04,810 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:07,564 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:07,595 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:07,664 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:07,664 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:45:08,174 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:08,727 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:08,728 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:45:11,192 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:11,289 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:11,290 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:45:14,356 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:14,448 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:14,449 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:45:15,986 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:21,227 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:21,656 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:22,032 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:22,412 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:22,521 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:22,521 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:45:24,170 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:24,239 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:24,243 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:45:26,162 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:26,233 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:26,233 - INFO: Retrying request to /openai/v1/chat/completions in 5.000000 seconds
-2025-07-23 20:45:33,477 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:33,542 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:33,543 - INFO: Retrying request to /openai/v1/chat/completions in 7.000000 seconds
-2025-07-23 20:45:42,517 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:42,622 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:42,625 - INFO: Retrying request to /openai/v1/chat/completions in 4.000000 seconds
-2025-07-23 20:45:42,727 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:42,728 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
-2025-07-23 20:45:46,367 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:46,443 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:46,443 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:45:46,695 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:46,696 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:45:48,086 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:48,635 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:48,712 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:48,713 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
-2025-07-23 20:45:48,716 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:48,716 - INFO: Retrying request to /openai/v1/chat/completions in 4.000000 seconds
-2025-07-23 20:45:52,373 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:52,798 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:52,798 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
-2025-07-23 20:45:56,768 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:45:56,842 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:45:56,842 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:46:00,693 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:00,758 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:00,763 - INFO: Retrying request to /openai/v1/chat/completions in 11.000000 seconds
-2025-07-23 20:46:12,180 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:19,158 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:19,757 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:20,202 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:20,625 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:21,020 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:24,126 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:24,128 - ERROR: Error in content planning or parsing: {
-"space_exploration_history": {
+2025-07-23 22:59:32,129 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:39,399 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:39,734 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:40,218 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:41,033 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:41,444 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:42,882 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:43,697 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:45,231 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:45,240 - ERROR: Failed to parse LLM response as JSON in content_generator for section 'sections': text="The renewable energy industry is expected to continue its growth trajectory in the coming years, driven by declining costs, technological advancements, and increasing global demand for clean energy. According to Deloitte's Renewable Energy Industry Outlook, the sector is projected to reach a cumulative installed capacity of 1.5 TW by 2025. Similarly, Diversegy's Renewable Energy Trends 2025 report highlights the increasing adoption of wind and solar power, with solar energy expected to become cost-competitive with fossil fuels by 2025. A report by Rated Power also emphasizes the importance of energy storage solutions, stating that the global energy storage market is expected to reach 1.4 TWh by 2025. Furthermore, a study published in Science Direct suggests that renewable energy could account for over 50% of global electricity generation by 2050. The World Economic Forum also predicts that 5 key energy trends will shape the industry in 2025, including the increasing adoption of electric vehicles and the growth of energy storage." sources=['https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html', 'https://diversegy.com/renewable-energy-trends-2025/', 'https://ratedpower.com/blog/key-trends-renewable-report/', 'https://www.sciencedirect.com/science/article/pii/S2211467X2200133X', 'https://www.weforum.org/stories/2025/03/5-energy-trends-2025/']
+2025-07-23 22:59:45,647 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:46,056 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:46,575 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:48,002 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:48,513 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:53,527 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:54,146 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:54,549 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:54,965 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:55,375 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:56,602 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:57,530 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 22:59:57,652 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 22:59:57,654 - INFO: Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-23 23:00:04,893 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:04,901 - ERROR: Failed to parse LLM response as JSON in content_generator for section 'sections': text='As the world shifts towards a more sustainable future, renewable energy trends are gaining momentum. According to industry experts, five key trends are shaping the sector: the growth of solar and wind power, energy storage innovation, the rise of electric vehicles, the increasing importance of grid resilience, and the emergence of new technologies. In 2024, the market is expected to see a significant increase in renewable energy adoption, driven by government policies and declining costs. The United States has made significant progress in clean energy, with solar and wind power accounting for 15% of electricity generation. To support this transition, innovative smart grid solutions are being developed to ensure a reliable and efficient energy supply. The renewable energy industry is expected to continue growing, with a predicted increase in installations and capacity. As the sector evolves, it is crucial to stay informed about the latest trends and developments to capitalize on the opportunities and mitigate the challenges.' sources=['https://rsmus.com/insights/industries/energy/the-top-5-renewable-energy-trends-shaping-the-sector.html', 'https://bcse.org/market-trends-2024/2024-key-trends/', 'https://www.wri.org/insights/clean-energy-progress-united-states', 'https://www.integrityenergy.com/blog/innovative-smart-grid-solutions-for-a-sustainable-future/', 'https://www.deloitte.com/us/en/insights/industry/renewable-energy/renewable-energy-industry-outlook.html']
+2025-07-23 23:00:05,000 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:00:05,002 - INFO: Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-23 23:00:14,311 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:16,663 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:17,251 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:18,092 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:18,208 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:00:18,208 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-23 23:00:21,693 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:27,392 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:27,837 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:29,278 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:30,191 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:30,702 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:30,823 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:00:30,825 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-07-23 23:00:33,158 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:33,260 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:00:33,266 - INFO: Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2025-07-23 23:00:45,553 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:45,593 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:00:45,608 - INFO: Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-23 23:00:52,203 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:59,472 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:00:59,993 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:00,503 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:01,016 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:01,514 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:04,483 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:04,486 - ERROR: Error in content planning or parsing: {
 "sections": [
+  {
+    "title": "Introduction",
+    "key_points": [
+      {
+        "text": "Space exploration is the exploration and study of space by means of spacecraft, satellites, and other technologies.",
+        "source": "Britannica"
+      }
+    ]
+  },
+  {
+    "title": "History of Space Exploration",
+    "subsections": [
+      {
+        "title": "Early Years",
+        "key_points": [
+          {
+            "text": "Space exploration began in the late 19th century with the launch of the first artificial satellite, Sputnik.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The first human spaceflight was accomplished by Yuri Gagarin in 1961.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "The Space Age",
+        "key_points": [
+          {
+            "text": "The 1960s saw the first lunar landing with the Apollo 11 mission in 1969.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The Space Shuttle program was launched in 1981 and ran until 2011.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Modern Era",
+        "key_points": [
+          {
+            "text": "The International Space Station was launched in 1998 and is still operational today.",
+            "source": "Britannica"
+          },
+          {
+            "text": "Private companies such as SpaceX and Blue Origin have made significant contributions to space exploration.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Missions",
+    "subsections": [
+      {
+        "title": "Lunar Missions",
+        "key_points": [
+          {
+            "text": "The Apollo 11 mission landed the first humans on the Moon in 1969.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The last lunar mission was Apollo 17 in 1972.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Planetary Missions",
+        "key_points": [
+          {
+            "text": "The Mariner 2 spacecraft flew by Venus in 1962.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The Voyager 1 spacecraft launched in 1977 and is now in interstellar space.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Astronauts",
+    "subsections": [
+      {
+        "title": "First Astronauts",
+        "key_points": [
+          {
+            "text": "The first human spaceflight was accomplished by Yuri Gagarin in 1961.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The first American in space was Alan Shepard in 1961.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Notable Astronauts",
+        "key_points": [
+          {
+            "text": "Neil Armstrong was the first person to walk on the Moon in 1969.",
+            "source": "Britannica"
+          },
+          {
+            "text": "Sally Ride was the first American woman in space in 1983.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Planets",
+    "subsections": [
+      {
+        "title": "Terrestrial Planets",
+        "key_points": [
+          {
+            "text": "Mercury is the smallest planet in our solar system.",
+            "source": "Britannica"
+          },
+          {
+            "text": "Earth is the third planet from the Sun.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Gas Giants",
+        "key_points": [
+          {
+            "text": "Jupiter is the largest planet in our solar system.",
+            "source": "Britannica"
+          },
+          {
+            "text": "Saturn is known for its rings.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Galaxies",
+    "subsections": [
+      {
+        "title": "Our Galaxy",
+        "key_points": [
+          {
+            "text": "The Milky Way is a barred spiral galaxy.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The Andromeda galaxy is the closest major galaxy to the Milky Way.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Other Galaxies",
+        "key_points": [
+          {
+            "text": "The Large Magellanic Cloud is a satellite galaxy of the Milky Way.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The Sombrero Galaxy is a spiral galaxy in the constellation Virgo.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Spacecraft",
+    "subsections": [
+      {
+        "title": "Historical Spacecraft",
+        "key_points": [
+          {
+            "text": "The Sputnik 1 was the first artificial satellite, launched in 1957.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The Apollo 11 spacecraft landed the first humans on the Moon in 1969.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Modern Spacecraft",
+        "key_points": [
+          {
+            "text": "The International Space Station is a habitable artificial satellite.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The Curiosity rover is a robotic spacecraft exploring Mars since 2012.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Technology",
+    "subsections": [
+      {
+        "title": "Launch Vehicles",
+        "key_points": [
+          {
+            "text": "The Saturn V rocket was used for the Apollo missions.",
+            "source": "Britannica"
+          },
+          {
+            "text": "The Space Shuttle main engines were solid-fueled.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Communication",
+        "key_points": [
+          {
+            "text": "Radio communication was used for early space missions.",
+            "source": "Britannica"
+          },
+          {
+            "text": "Satellites are used for modern space communication.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Discoveries",
+    "subsections": [
+      {
+        "title": "Planetary Discoveries",
+        "key_points": [
+          {
+            "text": "The first exoplanet was discovered in 1992.",
+            "source": "Britannica"
+          },
+          {
+            "text": "Water has been discovered on Mars.",
+            "source": "Britannica"
+          }
+        ]
+      },
+      {
+        "title": "Asteroid and Comet Discoveries",
+        "key_points": [
+          {
+            "text": "The first asteroid was discovered in 1801.",
+            "source": "Britannica"
+          },
+          {
+            "text": "Comets are thought to have brought water to Earth.",
+            "source": "Britannica"
+          }
+        ]
+      }
+    ]
+  }
+]
+2025-07-23 23:01:04,597 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:01:04,599 - INFO: Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2025-07-23 23:01:19,453 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:19,543 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:01:19,551 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-07-23 23:01:22,242 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:22,310 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:01:22,310 - INFO: Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-07-23 23:01:27,114 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:27,163 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:01:27,170 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-07-23 23:01:28,766 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:28,804 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:01:28,806 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-07-23 23:01:30,304 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:30,344 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:01:30,344 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-07-23 23:01:32,660 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:32,766 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:01:32,768 - INFO: Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-07-23 23:01:41,261 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:59,489 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:01:59,900 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:00,402 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:02,050 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:02,562 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:05,019 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:05,022 - ERROR: Error in content planning or parsing: {
+"spaceExplorationHistory": {
+"type": "heading",
+"text": "History of Space Exploration"
+},
+"earlyYears": {
+"type": "list",
+"items": [
 {
-"name": "Introduction",
-"key_points": [
+"type": "heading",
+"text": "1950s-1960s: Sputnik and Apollo Era"
+},
 {
-"text": "Space exploration has been a crucial aspect of human civilization's growth and understanding of the universe.",
-"source": "NASA History"
+"text": "Sputnik 1 was launched by the Soviet Union in 1957, marking the beginning of the space age."
+},
+{
+"text": "The United States launched Explorer 1 in 1958, followed by the Apollo missions, which put the first humans on the Moon in 1969."
 }
 ]
 },
+"apolloAndBeyond": {
+"type": "list",
+"items": [
 {
-"name": "Early Years",
-"key_points": [
-{
-"text": "NASA was established in 1958 with the goal of exploring space and the Earth's atmosphere.",
-"source": "Explore NASA's History"
+"type": "heading",
+"text": "1970s-1980s: Skylab and the Space Shuttle Era"
 },
 {
-"text": "The Soviet Union launched Sputnik 1, the first artificial satellite, in 1957.",
-"source": "NASA History"
+"text": "Skylab, the United States' first space station, was launched in 1973."
+},
+{
+"text": "The Space Shuttle program, which ran from 1981 to 2011, carried out numerous satellites, space stations, and planetary missions."
 }
 ]
 },
+"modernEra": {
+"type": "list",
+"items": [
 {
-"name": "Apollo Era",
-"key_points": [
-{
-"text": "The Apollo program successfully landed humans on the Moon in 1969.",
-"source": "NASA History"
+"type": "heading",
+"text": "1990s-2000s: International Space Station and Mars Exploration"
 },
 {
-"text": "Apollo 11's Eagle lunar module landed on the Moon's surface on July 20, 1969.",
-"source": "Explore NASA's History"
+"text": "The International Space Station (ISS) has been continuously occupied by astronauts and cosmonauts since 2000."
+},
+{
+"text": "NASA's Mars Exploration Program has sent several spacecraft to the Red Planet, including the Curiosity Rover, which has been operating since 2012."
 }
 ]
 },
+"currentMissions": {
+"type": "heading",
+"text": "Current Space Exploration Missions"
+},
+"iss": {
+"type": "list",
+"items": [
 {
-"name": "International Cooperation",
-"key_points": [
-{
-"text": "NASA has collaborated with international partners on various space missions and projects.",
-"source": "International Space Station Cooperation - NASA"
+"type": "text",
+"text": "The International Space Station continues to be occupied by astronauts and cosmonauts, conducting scientific research and testing technologies."
 },
 {
-"text": "The International Space Station (ISS) is a joint project between NASA, Russia, Japan, Canada, and Europe.",
-"source": "International Cooperation in Space - NASA"
+"type": "text",
+"text": "The ISS is expected to remain in operation until at least 2028."
 }
 ]
 },
+"mars2020": {
+"type": "list",
+"items": [
 {
-"name": "20 Years of Science on the ISS",
-"key_points": [
-{
-"text": "The ISS has been in operation for over 20 years, with numerous scientific breakthroughs and discoveries.",
-"source": "20 Breakthroughs from 20 Years of Science aboard the International Space Station"
+"type": "text",
+"text": "NASA's Mars 2020 mission, which included the Perseverance Rover, launched in July 2020 and is exploring Jezero crater on Mars."
 },
 {
-"text": "Some notable discoveries include the growth of plants in space, the effects of microgravity on the human body, and the study of space weather.",
-"source": "20 Breakthroughs from 20 Years of Science aboard the International Space Station"
+"type": "text",
+"text": "The rover is searching for signs of past or present life on Mars and collecting samples for potential return to Earth."
 }
 ]
 },
+"futurePlans": {
+"type": "heading",
+"text": "Future Plans for Space Exploration"
+},
+"artemisProgram": {
+"type": "list",
+"items": [
 {
-"name": "Conclusion",
-"key_points": [
+"type": "text",
+"text": "NASA's Artemis program aims to return humans to the Moon by 2024 and establish a sustainable presence on the lunar surface."
+},
 {
-"text": "Space exploration has come a long way, with numerous achievements and discoveries.",
-"source": "NASA History"
+"type": "text",
+"text": "The program also plans to send the first woman and the next man to the Moon."
+}
+]
+},
+"marsExploration": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "NASA plans to send astronauts to Mars in the 2030s, with the goal of establishing a sustainable human presence on the Red Planet."
+},
+{
+"type": "text",
+"text": "Private companies, such as SpaceX and Blue Origin, are also working towards establishing a human presence on Mars."
+}
+]
+},
+"benefits": {
+"type": "heading",
+"text": "Benefits of Space Exploration"
+},
+"scientificAdvancements": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "Space exploration has led to numerous scientific advancements, including the development of new technologies and a greater understanding of the universe."
+},
+{
+"type": "text",
+"text": "Examples of scientific advancements include the discovery of dark energy, the development of GPS technology, and the creation of new materials."
+}
+]
+},
+"technologicalAdvancements": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "Space exploration has driven the development of new technologies, such as communications satellites, GPS, and medical equipment."
+},
+{
+"type": "text",
+"text": "These technologies have improved daily life on Earth and have the potential to solve global challenges."
+}
+]
+},
+"economicBenefits": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "Space exploration can have economic benefits, such as the creation of new industries and jobs, and the potential for resource extraction and development."
+},
+{
+"type": "text",
+"text": "Private companies, such as SpaceX and Blue Origin, are already generating revenue through their space-related activities."
+}
+]
+},
+"challenges": {
+"type": "heading",
+"text": "Challenges of Space Exploration"
+},
+"cost": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "Space exploration is a costly endeavor, requiring significant funding and resources."
+},
+{
+"type": "text",
+"text": "The high cost of space exploration can limit the scope and frequency of missions."
+}
+]
+},
+"radiation": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "Space radiation is a significant challenge for both humans and electronics, requiring the development of protective technologies and strategies."
+},
+{
+"type": "text",
+"text": "Radiation exposure can have negative effects on both the human body and electronic systems."
+}
+]
+},
+"notableDiscoveries": {
+"type": "heading",
+"text": "Notable Discoveries in Space Exploration"
+},
+"waterOnMars": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "NASA's Mars Reconnaissance Orbiter discovered evidence of liquid water on Mars in 2015."
+},
+{
+"type": "text",
+"text": "This discovery has significant implications for the search for life on Mars and the potential for human habitation."
+}
+]
+},
+"exoplanets": {
+"type": "list",
+"items": [
+{
+"type": "text",
+"text": "The discovery of exoplanets has expanded our understanding of the universe, showing that planets are common and that some may be capable of supporting life."
+},
+{
+"type": "text",
+"text": "The search for exoplanets continues, with new missions and technologies being developed to detect and study these distant worlds."
 }
 ]
 }
-]
-}
-2025-07-23 20:46:24,202 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:24,206 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:46:26,848 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:26,930 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:26,931 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:46:30,520 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:30,594 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:30,594 - INFO: Retrying request to /openai/v1/chat/completions in 5.000000 seconds
-2025-07-23 20:46:36,239 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:36,335 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:36,335 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:46:38,398 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:38,482 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:38,482 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:46:40,074 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:40,172 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:40,173 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:46:44,340 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:46:44,411 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:46:44,412 - INFO: Retrying request to /openai/v1/chat/completions in 7.000000 seconds
-2025-07-23 20:46:52,119 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:08,179 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:08,690 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:09,426 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:09,982 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:10,457 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:11,647 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:11,716 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:47:11,717 - INFO: Retrying request to /openai/v1/chat/completions in 7.000000 seconds
-2025-07-23 20:47:19,751 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:19,891 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:47:19,894 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:47:22,659 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:22,742 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:47:22,742 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
-2025-07-23 20:47:25,242 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-23 20:47:25,320 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
-2025-07-23 20:47:25,320 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
-2025-07-23 20:47:27,366 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:05,839 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:05,940 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:02:05,940 - INFO: Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-07-23 23:02:11,057 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:11,380 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:02:11,382 - INFO: Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-23 23:02:14,860 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:15,127 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:02:15,127 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-07-23 23:02:16,941 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:16,976 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:02:16,976 - INFO: Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-07-23 23:02:18,639 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-23 23:02:18,676 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-23 23:02:18,677 - INFO: Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-07-23 23:02:22,414 - INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
